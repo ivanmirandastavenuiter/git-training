@@ -1,10 +1,9 @@
-const { json } = require('express');
-const express = require('express');
-const app = express();
-app.use(json());
+import express from 'express';
+
+const app = express().use(express.json());
 
 app.get('/git-training', (req, res) => {
-    res.send( `Welcome to git training on Node.js`);
+    res.send({ res: `Welcome to git training on Node.jds` });
 });
 
 app.listen(3000);
