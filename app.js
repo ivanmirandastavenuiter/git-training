@@ -9,5 +9,7 @@ app.get('/git-training', (req, res) => {
 // Let's test rebase instead of merge
 
 // Rebase 3 - master
+// Rebase 4 - master
+
 
 app.listen(3000);
