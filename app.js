@@ -11,6 +11,7 @@ app.get('/git-training', (req, res) => {
 // Comment 1 - e6 branch
 
 // Comment 2 - e6 branch
+// Comment 3 - master branch
 
 // Comment 4 - master branch
 
