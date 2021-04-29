@@ -8,4 +8,6 @@ app.get('/git-training', (req, res) => {
 
 // Let's test rebase instead of merge
 
+// Comment 1 - e6 branch
+
 app.listen(3000);
