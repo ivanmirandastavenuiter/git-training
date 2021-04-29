@@ -6,4 +6,4 @@ app.get('/git-training', (req, res) => {
     res.send({ res: `Welcome to git training on Node.jds` });
 });
 
-// Testing git reset with HEAD options
+app.listen(3000);
