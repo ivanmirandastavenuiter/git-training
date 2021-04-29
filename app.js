@@ -10,4 +10,6 @@ app.get('/git-training', (req, res) => {
 
 // Comment 1 - e6 branch
 
+// Comment 2 - e6 branch
+
 app.listen(3000);
